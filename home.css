@@ -1,0 +1,12 @@
+body {
+  background-color: #add8e6;
+}
+#welcome{
+    font-family: a_star_is_Born;
+    font-size: 100px;
+}
+/* Credit to Whoever put this font here https://www.dafont.com/a-star-is-born.font"*/
+@font-face {
+    font-family: a_star_is_Born;
+    src: url(ASTAB___.TTF);
+}
