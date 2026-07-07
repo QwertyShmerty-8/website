@@ -1,14 +1,10 @@
-body {
-    background:#add8e6 url("welcome4.png") no-repeat 0% 0%;
-    background-size: 60%;
 
-}
-#welcome{
-    font-family: a_star_is_Born;
-    font-size: 100px;
-}
-/* Credit to Whoever put this font here https://www.dafont.com/a-star-is-born.font"*/
-@font-face {
-    font-family: a_star_is_Born;
-    src: url(ASTAB___.TTF);
+body {
+    background:
+    url('welcomebannernontransparent.png') no-repeat 0% -10%,
+    url('myface.png') no-repeat 15% -25%,
+    url('website\ mockup.png') no-repeat 170% 0% 
+    #78e5ef ;
+    background-size: 50%, 45%, 75%;
+
 }
