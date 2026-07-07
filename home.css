@@ -1,5 +1,7 @@
 body {
-  background-color: #add8e6;
+    background:#add8e6 url("welcome4.png") no-repeat 0% 0%;
+    background-size: 60%;
+
 }
 #welcome{
     font-family: a_star_is_Born;
