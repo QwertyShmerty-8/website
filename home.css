@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: Sanchez;
+    src: url(sanchez/Sanchezregular.otf);
+}
 body {
     background:
     url('welcomebannernontransparent.png') no-repeat 0% -10%,
@@ -8,3 +11,53 @@ body {
     background-size: 50%, 45%, 75%;
 
 }
+    .btn {
+        font-family: Sanchez;
+        border: none; /* Remove borders */
+        color: white;
+         font-size: 1.75em;   /* Add a text color */
+        padding: 14px 28px; /* Add some padding */
+        cursor: pointer; /* Add a pointer cursor on mouse-over */
+        }
+
+.Blog {
+    position:absolute;
+    
+    top:40%;
+    left:70%;
+    width:300px;
+    height: 70px;
+    border-radius:12px;
+    box-shadow:  12px 12px 2px 1px rgba(32, 150, 183,0.6);
+    background-color: #24b2cb;} /* Dark Blue */
+.Blog:hover {background-color: #027184;}
+
+.Projects {position:absolute;
+    
+    top:57%;
+    left:60%;
+    width:300px;
+    height: 70px;
+    border-radius:12px;
+    box-shadow:  12px 12px 2px 1px #d62c8f;
+    background-color: #ef83c2;} /* Blue */
+.Projects:hover {background: #c6187d;}
+ 
+
+.AboutMe{
+    position:absolute;
+    
+    top:75%;
+    left:50%;
+    width:300px;
+    height: 70px;
+    border-radius:12px;
+    box-shadow:  12px 12px 2px 1px #d79a4d;
+    background-color: #edd34c;} /* Orange */
+.AboutMe:hover {background: #a39431;}
+
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */
+.default:hover {background: #ddd;}
+
+
